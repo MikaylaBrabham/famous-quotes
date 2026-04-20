@@ -31,6 +31,9 @@ public class FamousQuotes {
 
           System.out.println(favQuotes[index]);
       }
-
+    catch (Exception error) {
+          // add sout error that catches numbers out of bounds
+        System.out.println("Try a number between 1 - 10 to get a given quote!");
+    }
     }
 }
